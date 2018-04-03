@@ -1,0 +1,20 @@
+1. Using proper pseudo-code, describe three or more primitive algorithms used
+in your day-to-day life. Write your answers in a file called
+intro_algorithms_answers.txt.
+
+  * Calculating a tip:
+    1. Decide how well the waiter or waitress did in your opinion.
+    2. Decide if you want to base it if off a percentage or whole amount.
+    3. If whole amount, choose a number of 1 and up dependent on rating.
+    4. Else multiply total by percentage dependent on rating.
+    5. Leave calculated tip.
+  * Determining what to wear:
+    1. If going to work, base top shirt on day of the week.
+    2. Base pants on what type of shirt wearing.
+    3. Else pick a random shirt that you didn't wear last time.
+    4. Pick jeans based on shirt.
+  * Getting to work:
+    1. Start getting ready for work 1 hour before show time.
+    2. Leave to car 15 min early.
+    3. If morning time, take the expressway.
+    4. Else take the back way.
