@@ -1,0 +1,46 @@
+1. Given the alphabetically sorted collection in this checkpoint, how many
+iterations would it take to find the value G using linear search?
+
+  * It would take 7 iterations. A-1, B-2, C-3..G-7
+
+
+2. Given the alphabetically sorted collection in this checkpoint, how many
+iterations would it take to find the value G using binary search?
+
+  * It would take 3 iterations. D-1, F-2, E-3.
+
+3. Calculate fib(10), fib(11), fib(12) by hand.
+
+  * fib(10) = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55] = 55
+  * fib(11) = [34, 55, 89] = 89
+  * fib(12) = [55, 89, 144] = 144
+
+Compare the time it takes to run fib(20) between the iterative solution from
+the previous checkpoint and recursive solutions.
+
+  * fibonacci_iterative: 0.000013
+  * fibonacci_recursive: 0.001415
+
+Given an unsorted collection of a million items, which algorithm would you
+choose between linear search and binary search? Would you use an iterative or
+recursive solution? Explain your reasoning.
+
+  * Since it is an unsorted collection I would choose linear, because if you
+    use binary, it would be impossible to know what the next high and low would
+    be since it is not sorted. E.g. 7, 3, 9, 1, 8 and you're trying to find 1,
+    you would start at 9 and technically go lower since 9 is greater than 1.
+    You would never find it. If you do linear, than you will eventually find
+    it.
+  * I would use an iterative solution because it seems to take less time, I
+    assume because it has to think less. Unless the recursive solution would be
+    much more easy to maintain.
+
+Given a sorted collection of a million items, which algorithm would you choose
+between linear search and binary search? Would you use an iterative or
+recursive solution? Explain your reasoning.
+
+  * Since it is sorted I would choose binary, because it would take less time
+    by cutting the collection in half each miss.
+  * I would choose iterative for the same reason as above, since it seems that
+    the computer would have to think less. Unless the recursive solution would
+    be much more easy to maintain.
