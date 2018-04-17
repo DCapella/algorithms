@@ -1,0 +1,4 @@
+Quick sort takes the longest because it's doing extra work as far as sorting
+and than cutting, repeat. Bucket sort is only taking longer than heap sort
+because it has to do extra work in another function. Heap sort just goes
+through the motions and I believe its simplicity makes it faster.

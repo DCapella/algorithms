@@ -12,3 +12,6 @@ def quick_sort(collection)
   end
   quick_sort(collection[0...pivot_point]) + quick_sort(collection[pivot_point..-1])
 end
+
+# arr_test = [5, 1, 4, 2, 3]
+# p quick_sort(arr_test)
